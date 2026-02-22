@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.1.2
+
+- Removed pinned Git ref for `dev_see_logger` to avoid source conflicts when
+  parent apps use `dev_see_logger` from Git `HEAD` or another compatible ref.
+
 ## 0.1.1
 
 - Fixed `dev_see_logger` dependency source for Git consumption.
